@@ -17,8 +17,6 @@ Base ASA Environment including; 2 Linux Servers (Ubuntu in this example)
 
 Create a Repository using the code in this folder ([GitLab Repo](https://github.com/Okta-PAM-Resource-Kit/tutorials/tree/main/service%20users/gitlab/code/nginx)). Edit the 'gitlab-ci.yml' file so that SERVERNAME is replaced by the hostname of your Assigned Web Server then save repo.
 
-**Setup GitLab:**
-
 1. Once you have created a project on gitlab.com, we will need to create a new project runner.
 
 2. Navigate in the project to 
