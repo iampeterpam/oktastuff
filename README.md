@@ -13,7 +13,7 @@ Base ASA Environment including; 2 Linux Servers (Ubuntu in this example)
 - 1 Assigned Web Server (WEBSERVER)
 - 1 Assigned Gitlab Runner Server (GITLABRUNNERSERVER) Gitlab Account (https://gitlab.com/users/sign_up)
 
-# Setup GitLab
+# Setup GitLab:
 
 Create a Repository using the code in this folder ([GitLab Repo](https://github.com/Okta-PAM-Resource-Kit/tutorials/tree/main/service%20users/gitlab/code/nginx)). Edit the 'gitlab-ci.yml' file so that SERVERNAME is replaced by the hostname of your Assigned Web Server then save repo.
 
@@ -40,13 +40,13 @@ If you haven’t done so already, you can use the scripts found here to enroll y
 
 https://github.com/Okta-PAM-Resource-Kit/scripts/tree/main/installation/linux
 
-************************************Prepare WEBSERVER:************************************
+# Prepare WEBSERVER:
 
 1. Navigate to ASA, and connect to the WEBSERVER server
 
 2. Once connected, run the following command: `sudo apt-get install nginx`
 
-**Prepare GitLab Runner server** 
+# Prepare GitLab Runner server:
 
 1. Now connect to the GITLABRUNNERSERVER server via ASA
 
