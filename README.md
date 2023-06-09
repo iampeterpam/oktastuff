@@ -135,7 +135,7 @@ https://github.com/Okta-PAM-Resource-Kit/scripts/tree/main/installation/linux
 
 5. Then click on Add Group
 
-# Finalize the Gitlab-runner Server Setup:
+# Finalize the GITLABRUNNERSERVER Setup:
 
 1. Go back to the GITLABRUNNERSERVER terminal window 
 
