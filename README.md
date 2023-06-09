@@ -87,7 +87,7 @@ https://github.com/Okta-PAM-Resource-Kit/scripts/tree/main/installation/linux
 
     c. Take note of the UID/GID for the **gitlab-runner user**
 
-**Create ASA Service User:**
+# Create ASA Service User:
 
 1. Create a service user account in ASA by navigating to Users > Service Users
 
@@ -99,7 +99,7 @@ https://github.com/Okta-PAM-Resource-Kit/scripts/tree/main/installation/linux
 
 5. The API Key ID and Key Secret will be shown. Make sure to take note of both as the Key Secret will not be shown again once you close this window.
 
-**Create group for the ASA Service User:**
+# Create group for the ASA Service User:
 
 1. In ASA navigate to Groups, then click on **Create Group**
 
@@ -109,7 +109,7 @@ https://github.com/Okta-PAM-Resource-Kit/scripts/tree/main/installation/linux
 
 4. You will now see the page for the newly created group. From here, you will need to click on the Users tab and enter the username of the gitlab service user we just created. Then click on Add User. You should now see the gitlab user listed as Active.
 
-**Add GitLab Service User group to servers:**
+# Add GitLab Service User group to servers:
 
 1. In ASA navigate to Projects, then select the Gitlab Project
 
@@ -123,7 +123,7 @@ https://github.com/Okta-PAM-Resource-Kit/scripts/tree/main/installation/linux
 
 6. Click Submit
 
-**Add GitLab group to gitlab project:**
+# Add GitLab group to gitlab project:
 
 1. In ASA navigate to Projects, then select the Gitlab Project
 
@@ -135,7 +135,7 @@ https://github.com/Okta-PAM-Resource-Kit/scripts/tree/main/installation/linux
 
 5. Then click on Add Group
 
-**Finalize the Gitlab-runner Server Setup:**
+# Finalize the Gitlab-runner Server Setup:
 
 1. Go back to the GITLABRUNNERSERVER terminal window 
 
