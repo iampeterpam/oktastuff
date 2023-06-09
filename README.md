@@ -155,6 +155,9 @@ https://github.com/Okta-PAM-Resource-Kit/scripts/tree/main/installation/linux
 
 8. You should now be able to authenticate as service user **gitlab** from GITLABRUNNER to WEBSERVER, while connected to gitlab-runner server via ASA.
 
-**Testing:**
+# Testing:
 
 Navigate to Gitlab Click Build > Pipelines Click Run Pipeline
+
+# Thanks:
+Shad Lutz @ Okta
